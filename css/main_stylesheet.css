@@ -1,0 +1,65 @@
+body {
+	background: #D8D8D8;
+	}
+
+h1 {
+	margin-bottom:0;
+	color:#000000;
+	font-family:arial;
+}
+
+a:link {
+		text-decoration: none;
+	}
+	
+.header_link {
+	background-color:#FFFFFF;
+	width:100%;
+	float:left;
+}
+
+.menu_style table {
+	border:0;
+}
+
+.menu_style table tr td {
+	width: 100px;
+	height: 40px;
+	text-align:center;
+}
+
+.menu_style table tr td font {
+	font-family: arial;
+	color: #FFFFFF;
+	size: 3;
+}
+
+.selected_tab {
+	background-color:#009900;
+}
+
+.unselected_tab {
+	background-color:#000066;
+}
+
+.content_style {
+	background-color:#FFFFFF;
+	height:1000px;
+	width:100%;
+	float:left;
+}
+
+.content_style table{
+	width: 100%;
+}
+
+.content_style table tr th{
+	font-size: 20px;
+	color: blue;
+}
+
+.footer_style {
+	background-color:#FFA500;
+	clear:both;
+	text-align:center;
+}
