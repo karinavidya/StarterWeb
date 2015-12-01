@@ -1,10 +1,12 @@
 body {
-	background: #D8D8D8;
-	}
+	background-image: url("image/background_image.jpg");
+    background-color: #cccccc;
+    background-size: 100%;
+}
 
 h1 {
 	margin-bottom:0;
-	color:#000000;
+	color:#FFFFFF;
 	font-family:arial;
 }
 
@@ -15,6 +17,7 @@ a:link {
 .header_link {
 	background-color:#FFFFFF;
 	width:100%;
+	font-size: 40px;
 	float:left;
 }
 
@@ -43,19 +46,30 @@ a:link {
 }
 
 .content_style {
-	background-color:#FFFFFF;
 	height:1000px;
 	width:100%;
 	float:left;
 }
 
 .content_style table{
+	background-color:#000033;
+	opacity: 0.75;
+	font-family: arial;
 	width: 100%;
 }
 
 .content_style table tr th{
 	font-size: 20px;
-	color: blue;
+	font-family: arial;
+	text-align:center;
+	color: white;
+}
+
+.content_style table tr td{
+	font-size: 12px;
+	font-family: arial;
+	text-align:center;
+	color: white;
 }
 
 .footer_style {
